@@ -8,10 +8,13 @@ APPLY 'solarize' TO image
 SAVE image TOSYS 'output.png'
 CLOSE image
 ```
+## Explanation
 
 There's not much going on here, but let's look at this line by line:
 
 First let's identify that each line in photon is called a `query`. Each `query` has a beginning `statement`. Think of statements as a commands to do something to an image. Photon tries to make these statements as user-friendly as possible.
+
+### Statements
 
 The `OPEN` statement opens our image, and loads it into our environment. The `'image.png'` signfies the file-path where the image is located. Here, our image is located in the root directory of our project, thus we can just reference it as `'image.png'`.
 
