@@ -1,5 +1,5 @@
 site_name: Photon Documentation
-site_url: https://example.com/
+site_url: https://photon-documentation.readthedocs.io/en/latest/
 
 theme:
   name: material
