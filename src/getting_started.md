@@ -20,3 +20,5 @@ The `APPLY` statement applies an `effect` to our image. These effects can be pre
 The `SAVE` statement saves the `IO` attached to our identifier to a specified file-path. `TOSYS` exists to make it clear that we are saving it to our system rather than an identifier.
 
 The `CLOSE` statement is good practice to use when you are finished with an image as it removes it from the environment, allowing you to use the same identifier name again.
+
+Identifiers in Photon silently fail when assigning them to new images, allowing them to act like normal variables in other popular languages.
