@@ -3,3 +3,7 @@ site_url: https://example.com/
 
 theme:
   name: material
+
+mkdocs:
+  configuration: mkdocs.yml
+  fail_on_warning: false
