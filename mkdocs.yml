@@ -4,7 +4,3 @@ site_url: https://example.com/
 theme:
   name: material
 
-mkdocs:
-  builder: markdown
-  configuration: mkdocs.yml
-  fail_on_warning: false

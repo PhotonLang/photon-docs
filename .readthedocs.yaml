@@ -6,7 +6,9 @@
 version: 2
 
 mkdocs:
+  builder: markdown
   configuration: mkdocs.yml
+  fail_on_warning: false
 
 # Optionally set the version of Python and requirements required to build your docs
 python:
