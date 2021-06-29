@@ -1,6 +1,0 @@
-[book]
-authors = ["quiktea"]
-language = "en"
-multilingual = false
-src = "src"
-title = "Photon Documentation"
